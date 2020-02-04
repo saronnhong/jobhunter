@@ -1,0 +1,8 @@
+.searchBar {
+    padding: 5px 3px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.material-icons {
+    letter-spacing: 1.5;
+}
