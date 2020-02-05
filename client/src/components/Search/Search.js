@@ -78,7 +78,7 @@ class Search extends Component {
                     }}>chevron_right</i></a></li>
                 </ul>
                 {this.state.searchResults.map((jobs) =>
-                    <Job PositionTitle={jobs.MatchedObjectDescriptor.PositionTitle} OrganizationName={jobs.MatchedObjectDescriptor.OrganizationName} JobSummary={jobs.MatchedObjectDescriptor.UserArea.Details.JobSummary} PositionURI={jobs.MatchedObjectDescriptor.PositionURI} Location={jobs.MatchedObjectDescriptor.PositionLocationDisplay} Apply={jobs.MatchedObjectDescriptor.UserArea.Details.ApplyOnlineUrl} />
+                    <Job PositionTitle={jobs.MatchedObjectDescriptor.PositionTitle} OrganizationName={jobs.MatchedObjectDescriptor.OrganizationName} JobSummary={jobs.MatchedObjectDescriptor.UserArea.Details.JobSummary} PositionURI={jobs.MatchedObjectDescriptor.PositionURI} Location={jobs.MatchedObjectDescriptor.PositionLocationDisplay} Apply={jobs.MatchedObjectDescriptor.UserArea.Details.ApplyOnlineUrl} PublicationDate ={jobs.MatchedObjectDescriptor.PublicationStartDate}/>
                 )}
             </div>
         );
