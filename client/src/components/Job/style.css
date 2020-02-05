@@ -1,0 +1,11 @@
+
+.jobApp{
+    border: 1px grey solid;
+    padding: 0 15px 15px 15px;
+    margin-top: 10px;
+}
+
+.applyBtn{
+    margin-top: 10px;
+    margin-right: 10px;
+}
